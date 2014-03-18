@@ -7,14 +7,14 @@
 //
 
 #import "AJYAppDelegate.h"
-#import <CheckMate/CheckMate.h>
+//#import <CheckMate/CheckMate.h>
 
 @implementation AJYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [CheckMate initializeFramework:@[@"<7df93b86cbd83de7f308259fe6a5f747>",@"<061fbf8ca213501c414dff6a053376c3>"]];
+    //[CheckMate initializeFramework:@[@"<7df93b86cbd83de7f308259fe6a5f747>",@"<061fbf8ca213501c414dff6a053376c3>"]];
     return YES;
 }
 							
